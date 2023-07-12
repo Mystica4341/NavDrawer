@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/menu"
+            android:icon="@drawable/baseline_food_bank_24"
+            android:title="Menu" />
+        <item
+            android:id="@+id/show"
+            android:icon="@drawable/baseline_slideshow_24"
+            android:title="Showcase" />
+    </group>
+    <group >
+        <item android:title="Share" >
+            <menu >
+                <item
+                    android:id="@+id/fb"
+                    android:icon="@drawable/ic_fb"
+                    android:title="Facebook"  />
+                <item android:id="@+id/tw"
+                    android:icon="@drawable/ic_tw"
+                    android:title="Twitter" />
+            </menu>
+        </item>
+    </group>
+</menu>
