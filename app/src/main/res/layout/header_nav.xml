@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="250dp"
+    android:layout_height="225dp"
     android:orientation="vertical"
     android:gravity="bottom"
     android:padding="20dp"
@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:textSize="12pt"
         android:textStyle="bold"
+        android:layout_marginTop="10dp"
         android:text="Name: Tien Tai" />
 
     <TextView
@@ -28,5 +29,6 @@
         android:layout_height="wrap_content"
         android:textSize="10pt"
         android:textStyle="bold"
+        android:layout_marginTop="10dp"
         android:text="Job: Chef" />
 </LinearLayout>
